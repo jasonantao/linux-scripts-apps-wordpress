@@ -24,7 +24,6 @@ rm -f latest.tar.gz
 yum install git -y
 
 #Set Cloning Properties
-mkdir
 pkg=wordpress
 gitRepo="linux-scripts-apps-wordpress.git"
 installDir="/tmp/wordpress"
@@ -43,7 +42,7 @@ $clone$gitRepo $installDir
 cd $installDir
 
 # MAKE ALL SHELL SCRIPTS EXECUTABLE TO ROOT ONLY
-find . -name "*.sh" -exec chmod 700 {} \;
+#find . -name "*" -exec chmod 700 {} \;
 
 
 # Setup Project

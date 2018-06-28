@@ -45,8 +45,8 @@ cd $installDir
 # MAKE ALL SHELL SCRIPTS EXECUTABLE TO ROOT ONLY
 find . -name "*.sh" -exec chmod 700 {} \;
 
+
 # Setup Project
 ./setup.sh
 
-echo "WordPress has now succesfully been installed and a database created."
 cd $HOME

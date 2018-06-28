@@ -1,6 +1,4 @@
 #Setup File PLACEHOLDER
 echo "WordPress has now succesfully been installed and a database created."
-
-mysql -u root mywebsite < cmds.txt;
-
+mysql USE mywpwebsite;
 echo "WordPress has now succesfully been installed and a database created."

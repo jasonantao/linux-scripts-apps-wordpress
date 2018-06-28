@@ -47,6 +47,11 @@ find . -name "*.sh" -exec chmod 700 {} \;
 
 
 # Setup Project
-./setup.sh
+#./setup.sh
+#mysql -u root < cmds.txt;
+mysql -u root
+create database mywebsite;
+USE mywebsite;
+source /tmp/wordpress/schema.sql
 
 cd $HOME

@@ -24,9 +24,10 @@ rm -f latest.tar.gz
 yum install git -y
 
 #Set Cloning Properties
-pkg=wp
+mkdir
+pkg=wordpress
 gitRepo="linux-scripts-apps-wordpress.git"
-installDir="/tmp/scripts/db/wp"
+installDir="/tmp/wordpress"
 
 if [ -f ~/.ssh/gitHub.key ]; then
    clone="git clone git@github.com:jasonantao/"

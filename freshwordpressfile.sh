@@ -23,3 +23,4 @@ use website;
 exit;
 
 echo "WordPress has now succesfully been installed and a database created."
+cd $HOME

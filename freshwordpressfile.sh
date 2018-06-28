@@ -42,15 +42,16 @@ $clone$gitRepo $installDir
 cd $installDir
 
 # MAKE ALL SHELL SCRIPTS EXECUTABLE TO ROOT ONLY
-#find . -name "*" -exec chmod 700 {} \;
+find . -name "*sh" -exec chmod 700 {} \;
 
 
 # Setup Project
 #./setup.sh
 #mysql -u root < cmds.txt;
 mysql -u root
-create database mywebsite;
-USE mywebsite;
-source /tmp/wordpress/schema.sql
+create database mywpwebsite;
+USE mywpwebsite;
+source /tmp/wordpress/cmds.sql
+exit;
 
 cd $HOME

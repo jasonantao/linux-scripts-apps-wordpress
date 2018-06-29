@@ -29,6 +29,7 @@ rm -f latest.tar.gz
 yum install git -y
 
 #Set Cloning Properties
+#Need to setup to install wordpress under scripts/apps/
 pkg=wordpress
 gitRepo="linux-scripts-apps-wordpress.git"
 installDir="/tmp/wordpress"

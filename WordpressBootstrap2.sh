@@ -59,6 +59,7 @@ echo "Go to http://your_ip_adress/wordpress to launch your blank wordpress site.
 mysql -u root
 source /tmp/wordpress/wpcmds.sql
 exit;
+exit;
 
 cd $HOME
 echo "Wordpress Installation Complete"

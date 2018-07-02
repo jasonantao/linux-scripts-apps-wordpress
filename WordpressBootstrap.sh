@@ -9,21 +9,14 @@ if [ "$EUID" -ne 0 ]
   return -1
 fi
 
-#Generating directory for which website and wordpress will be installed
-cd $HOME
-mkdir /var/tmp/www/
-cd /var/tmp/www/
+#Installing httpd and starting service.
+yum install httpd -y
+service httpd start
 
-#Getting wordpress latest tar file
-wget http://wordpress.org/latest.tar.gz
-tar xfz latest.tar.gz
-
-#Moving wordpress files back one step in the directory
-mv wordpress/* ./
-
-#Removing unecessary files from the fore mentioned file shift
-rmdir ./wordpress/
-rm -f latest.tar.gz
+#Installing php-mysql
+#In order to take effect, need a restart on httpd service
+yum install php php-mysql -y
+service httpd restart
 
 #Git initialization installation
 yum install git -y
@@ -33,7 +26,6 @@ yum install git -y
 pkg=wordpress
 gitRepo="linux-scripts-apps-wordpress.git"
 installDir="/tmp/wordpress"
-
 if [ -f ~/.ssh/gitHub.key ]; then
    clone="git clone git@github.com:jasonantao/"
 else
@@ -50,20 +42,25 @@ cd $installDir
 # MAKE ALL SHELL SCRIPTS EXECUTABLE TO ROOT ONLY
 find . -name "*sh" -exec chmod 700 {} \;
 
+#Setup for Wordpress Installation
+#Directory setup and file installation setup and management
+cd /var/www/html
+wget http://wordpress.org/latest.tar.gz
+tar -xzvf latest.tar.gz
 
-# Setup Project
-#Note: Do not, and cannot use setup.sh in this case to run .sql file with SQL commands
-#./setup.sh
-
-#Logging into mysql to run commands
-mysql -u root
-
-#Creating database mywpwebsite and setting it to be used with running commands
-create database mywpwebsite;
-USE mywpwebsite;
+#Initial message - will repeat
+echo "Wordpress Installation Complete"
+echo "Go to http://your_ip_adress/wordpress to launch your blank wordpress site.
 
 #Pulling sql commands from .sql file cmds to which commands in sql are run to create wordpress ready database and exit mysql
-source /tmp/wordpress/cmds.sql
+#NOTE: MYSQL FIRST CAN TO BE INSTALLED
+#NOT REQUIRED, BUT IF IT IS, WILL JUST SKIP A STEP IN WORDPRESS LOGIN SETUP PRELIMS
+#THIS WAY, THIS SCRIPT WORKS NO MATTER WHICH LINUX INSTANCE YOU LAUNCH!!!!!
+mysql -u root
+source /tmp/wordpress/wpcmds.sql
+exit;
 exit;
 
 cd $HOME
+echo "Wordpress Installation Complete"
+echo "Go to http://your_ip_adress/wordpress to launch your blank wordpress site.

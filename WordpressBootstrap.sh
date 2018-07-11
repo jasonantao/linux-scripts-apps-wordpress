@@ -45,11 +45,6 @@ find . -name "*sh" -exec chmod 700 {} \;
 #Setup for Wordpress Installation
 #Directory setup and file installation setup and management
 
-cd /tmp/wordpress/install/bootstraps/mysql/
-
-./mySQLBootstrap.sh
-
-exit;
 cd /var/www/html
 wget http://wordpress.org/latest.tar.gz
 tar -xzvf latest.tar.gz
@@ -62,6 +57,10 @@ echo "Go to http://your_ip_adress/wordpress to launch your blank wordpress site.
 #NOTE: MYSQL FIRST CAN TO BE INSTALLED
 #NOT REQUIRED, BUT IF IT IS, WILL JUST SKIP A STEP IN WORDPRESS LOGIN SETUP PRELIMS
 #THIS WAY, THIS SCRIPT WORKS NO MATTER WHICH LINUX INSTANCE YOU LAUNCH!!!!!
+cd /tmp/wordpress/install/bootstraps/mysql/
+
+./mySQLBootstrap.sh
+
 mysql -u root
 source /tmp/wordpress/wpcmds.sql
 

@@ -51,6 +51,7 @@ service httpd start
 yum install php php-mysql -y
 service httpd restart
 
+cd /tmp/scripts/db/mySQL/
 ./setup.sh
 
 cd $HOME

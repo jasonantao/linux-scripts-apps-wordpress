@@ -75,4 +75,6 @@ service mysqld start
 mysql -u root
 source /tmp/wordpress/install/wpcmds.sql
 exit;
+
+
 cd $HOME

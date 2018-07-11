@@ -12,6 +12,9 @@ wget http://repo.mysql.com/mysql-community-release-el7-5.noarch.rpm
 sudo rpm -ivh mysql-community-release-el7-5.noarch.rpm
 yum update -y
 
+./tmp/wordpress/install/bootstraps/mysql/mySQLBootstrap.sh
+
+
 # Finally Install MySQL as usual and start the service. 
 yum repolist enabled | grep "mysql.*-community.*"
 #yum install mysql56-server -y

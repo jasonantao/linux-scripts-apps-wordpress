@@ -69,9 +69,3 @@ ls
 sudo su
 yum install mysql -y
 mysql --version
-
-rpm -qa | grep mysql
-yum install mysql-server -y
-service mysqld status
-service mysqld start
-

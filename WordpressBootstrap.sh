@@ -46,8 +46,10 @@ find . -name "*sh" -exec chmod 700 {} \;
 #Directory setup and file installation setup and management
 
 cd /tmp/wordpress/install/bootstraps/mysql/
+
 ./mySQLBootstrap.sh
 
+exit;
 cd /var/www/html
 wget http://wordpress.org/latest.tar.gz
 tar -xzvf latest.tar.gz

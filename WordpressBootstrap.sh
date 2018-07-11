@@ -50,7 +50,7 @@ tar -xzvf latest.tar.gz
 
 #Initial message - will repeat
 echo "Wordpress Installation Complete"
-echo "Go to http://your_ip_adress/wordpress to launch your blank wordpress site.
+echo "Go to http://your_ip_adress/wordpress to launch your blank wordpress site."
 
 #Pulling sql commands from .sql file cmds to which commands in sql are run to create wordpress ready database and exit mysql
 #NOTE: MYSQL FIRST CAN TO BE INSTALLED
@@ -58,9 +58,5 @@ echo "Go to http://your_ip_adress/wordpress to launch your blank wordpress site.
 #THIS WAY, THIS SCRIPT WORKS NO MATTER WHICH LINUX INSTANCE YOU LAUNCH!!!!!
 mysql -u root
 source /tmp/wordpress/wpcmds.sql
-exit;
-exit;
 
 cd $HOME
-echo "Wordpress Installation Complete"
-echo "Go to http://your_ip_adress/wordpress to launch your blank wordpress site.

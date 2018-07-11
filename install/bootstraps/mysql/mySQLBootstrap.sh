@@ -1,4 +1,3 @@
-#!/bin/bash
 sqlCurrDir=$PWD
 
 # Ensure script is running under root
@@ -8,8 +7,11 @@ if [ "$EUID" -ne 0 ]
 fi
 
 #Initial update of server
-wget http://repo.mysql.com/mysql-community-release-el7-5.noarch.rpm
-sudo rpm -ivh mysql-community-release-el7-5.noarch.rpm
+#wget http://repo.mysql.com/mysql-community-release-el7-5.noarch.rpm
+#sudo rpm -ivh mysql-community-release-el7-5.noarch.rpm
+
+yum install mysql -y
+sudo rpm -ivh mysql-5.5-1.6.amzn1.noarch.rpm
 yum update -y
 
 

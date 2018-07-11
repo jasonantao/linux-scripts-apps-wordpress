@@ -68,7 +68,7 @@ echo "Go to http://your_ip_adress/wordpress to launch your blank wordpress site.
 #NOT REQUIRED, BUT IF IT IS, WILL JUST SKIP A STEP IN WORDPRESS LOGIN SETUP PRELIMS
 #THIS WAY, THIS SCRIPT WORKS NO MATTER WHICH LINUX INSTANCE YOU LAUNCH!!!!!
 
-#mysql -u root
-#source /tmp/wordpress/install/wpcmds.sql
+mysql -u root
+source /tmp/wordpress/install/wpcmds.sql
 
 cd $HOME

@@ -9,15 +9,7 @@ if [ "$EUID" -ne 0 ]
   return -1
 fi
 
-#Installing httpd and starting service.
-yum install httpd -y
-service httpd start
-
-#Installing php-mysql
-#In order to take effect, need a restart on httpd service
-yum install php php-mysql -y
-service httpd restart
-
+###################################################################################
 #Git initialization installation
 yum install git -y
 
@@ -42,6 +34,24 @@ cd $installDir
 # MAKE ALL SHELL SCRIPTS EXECUTABLE TO ROOT ONLY
 find . -name "*sh" -exec chmod 700 {} \;
 
+###################################################################################
+cd /tmp/wordpress/install/bootstraps/mysql/
+
+./mySQLBootstrap.sh
+
+cd $HOME
+
+###################################################################################
+#Installing httpd and starting service.
+yum install httpd -y
+service httpd start
+
+#Installing php-mysql
+#In order to take effect, need a restart on httpd service
+yum install php php-mysql -y
+service httpd restart
+
+#####################################################################################
 #Setup for Wordpress Installation
 #Directory setup and file installation setup and management
 
@@ -57,11 +67,8 @@ echo "Go to http://your_ip_adress/wordpress to launch your blank wordpress site.
 #NOTE: MYSQL FIRST CAN TO BE INSTALLED
 #NOT REQUIRED, BUT IF IT IS, WILL JUST SKIP A STEP IN WORDPRESS LOGIN SETUP PRELIMS
 #THIS WAY, THIS SCRIPT WORKS NO MATTER WHICH LINUX INSTANCE YOU LAUNCH!!!!!
-cd /tmp/wordpress/install/bootstraps/mysql/
 
-./mySQLBootstrap.sh
-
-mysql -u root
-source /tmp/wordpress/wpcmds.sql
+#mysql -u root
+#source /tmp/wordpress/install/wpcmds.sql
 
 cd $HOME

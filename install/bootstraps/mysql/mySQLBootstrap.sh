@@ -74,3 +74,4 @@ rpm -qa | grep mysql
 yum install mysql-server -y
 service mysqld status
 service mysqld start
+

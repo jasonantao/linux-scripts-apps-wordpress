@@ -1,9 +1,3 @@
-#Setup File PLACEHOLDER
-
-#####################################################################################
-#Setup for Wordpress Installation
-#Directory setup and file installation setup and management
-
 cd /var/www/html
 wget http://wordpress.org/latest.tar.gz
 tar -xzvf latest.tar.gz

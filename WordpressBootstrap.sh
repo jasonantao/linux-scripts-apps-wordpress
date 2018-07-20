@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 #Setting reference to the current directory
 sqlCurrDir=$PWD
 
@@ -53,7 +54,7 @@ service httpd restart
 
 #cd /tmp/scripts/db/mySQL/
 cd /tmp/wordpress/
-./setup.sh
+ ./setup.sh
 
 #cd $HOME
 #Exiting the two modularized sql command scripts that were run below.

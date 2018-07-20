@@ -31,3 +31,10 @@ service mysqld start
 mysql -u root
 source /tmp/wordpress/install/wpcmds.sql
 exit;
+
+
+#cd $HOME
+#Exiting the two modularized sql command scripts that were run below.
+#Test, required - mandatory step below, to ensure proper reset - everytime!!!
+exit;
+exit;

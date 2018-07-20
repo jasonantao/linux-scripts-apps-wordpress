@@ -35,7 +35,9 @@ cd $installDir
 find . -name "*sh" -exec chmod 700 {} \;
 
 ###################################################################################
-cd /tmp/wordpress/install/bootstraps/mysql/
+#cd /tmp/wordpress/install/bootstraps/mysql/
+
+cd ./install/bootstraps/mysql/
 
 ./mySQLBootstrap.sh
 

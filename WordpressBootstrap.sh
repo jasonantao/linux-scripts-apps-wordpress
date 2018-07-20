@@ -41,7 +41,6 @@ cd ./install/bootstraps/mysql/
 
 ./mySQLBootstrap.sh
 
-
 ###################################################################################
 #Installing httpd and starting service.
 yum install httpd -y

@@ -42,16 +42,7 @@ cd ./install/bootstraps/mysql/
 ./mySQLBootstrap.sh
 
 ###################################################################################
-#Installing httpd and starting service.
-yum install httpd -y
-service httpd start
 
-#Installing php-mysql
-#In order to take effect, need a restart on httpd service
-yum install php php-mysql -y
-service httpd restart
-
-#cd /tmp/scripts/db/mySQL/
 cd $installDir
 ./setup.sh
 

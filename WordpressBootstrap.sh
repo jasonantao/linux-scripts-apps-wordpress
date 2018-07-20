@@ -62,5 +62,5 @@ cd /tmp/wordpress/
 exit;
 exit;
 
-cd $HOME
+cd $wpCurrDir
 

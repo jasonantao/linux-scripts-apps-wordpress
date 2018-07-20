@@ -56,5 +56,9 @@ cd /tmp/wordpress/
 ./setup.sh
 
 #cd $HOME
+#Exiting the two modularized sql command scripts that were run below.
 exit;
 exit;
+
+cd $HOME
+

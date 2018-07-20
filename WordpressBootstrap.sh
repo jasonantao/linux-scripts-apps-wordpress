@@ -57,6 +57,7 @@ cd /tmp/wordpress/
 
 #cd $HOME
 #Exiting the two modularized sql command scripts that were run below.
+#Test, required - mandatory step below, to ensure proper reset - everytime!!!
 exit;
 exit;
 

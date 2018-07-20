@@ -41,7 +41,6 @@ cd ./install/bootstraps/mysql/
 
 ./mySQLBootstrap.sh
 
-cd $HOME
 
 ###################################################################################
 #Installing httpd and starting service.

@@ -55,5 +55,6 @@ service httpd restart
 cd /tmp/wordpress/
 ./setup.sh
 
-cd $HOME
-
+#cd $HOME
+exit;
+exit;

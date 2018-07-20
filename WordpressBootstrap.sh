@@ -51,7 +51,9 @@ service httpd start
 yum install php php-mysql -y
 service httpd restart
 
-cd /tmp/scripts/db/mySQL/
+#cd /tmp/scripts/db/mySQL/
+cd /tmp/wordpress/
 ./setup.sh
 
 cd $HOME
+

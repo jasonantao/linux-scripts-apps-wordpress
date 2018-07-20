@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Setting reference to the current directory
-sqlCurrDir=$PWD
+wpCurrDir=$PWD
 
 # Ensure script is running under root
 if [ "$EUID" -ne 0 ]

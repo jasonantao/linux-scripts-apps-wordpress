@@ -4,13 +4,8 @@
 #Install php-mysql
 . ./install/installphpmysql.sh
 
-cd /var/www/html
-wget http://wordpress.org/latest.tar.gz
-tar -xzvf latest.tar.gz
-
-#Initial message - will repeat
-echo "Wordpress Installation Complete"
-echo "Go to http://your_ip_adress/wordpress to launch your blank wordpress site."
+#Install WordPress
+. ./install/installwordpress.sh
 
 #Pulling sql commands from .sql file cmds to which commands in sql are run to create wordpress ready database and exit mysql
 #NOTE: MYSQL FIRST CAN TO BE INSTALLED

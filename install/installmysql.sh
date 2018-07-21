@@ -6,7 +6,8 @@ service mysqld status
 service mysqld start
 
 mysql -u root
-source /tmp/wordpress/install/wpcmds.sql
+#source /tmp/wordpress/install/wpcmds.sql
+source ./install/wpcmds.sql
 exit;
 exit;
 exit;

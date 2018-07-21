@@ -1,3 +1,6 @@
+#Installing WordPress
+echo 'Installing WordPress'
+
 wpInstallDir=$PWD
 cd /var/www/html
 wget http://wordpress.org/latest.tar.gz

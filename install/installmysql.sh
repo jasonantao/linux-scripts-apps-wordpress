@@ -2,6 +2,7 @@
 #NOTE: MYSQL FIRST CAN TO BE INSTALLED
 #NOT REQUIRED, BUT IF IT IS, WILL JUST SKIP A STEP IN WORDPRESS LOGIN SETUP PRELIMS
 #THIS WAY, THIS SCRIPT WORKS NO MATTER WHICH LINUX INSTANCE YOU LAUNCH!!!!!
+echo 'Installing mysql server'
 rpm -qa | grep mysql
 yum install mysql-server -y
 service mysqld status

@@ -1,11 +1,8 @@
-#Installing httpd and starting service.
-yum install httpd -y
-service httpd start
+#Install Web Server
+. ./install/installwebserver.sh
 
-#Installing php-mysql
-#In order to take effect, need a restart on httpd service
-yum install php php-mysql -y
-service httpd restart
+#Install php-mysql
+. ./install/installphpmysql.sh
 
 cd /var/www/html
 wget http://wordpress.org/latest.tar.gz

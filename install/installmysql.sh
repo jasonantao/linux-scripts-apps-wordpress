@@ -7,6 +7,10 @@ service mysqld start
 
 mysql -u root
 #source /tmp/wordpress/install/wpcmds.sql
+
+#mySQLInstallDir=$PWD/install
+#Source $mySQLInstallDir/wpcmds.sql
+
 source ./install/wpcmds.sql
 exit;
 exit;

@@ -9,3 +9,6 @@
 
 #Install MySQL
 . ./install/installmysql.sh
+
+#Configure WordPress
+. ./install/configurewp.sh

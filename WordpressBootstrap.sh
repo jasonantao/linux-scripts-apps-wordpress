@@ -9,7 +9,6 @@ if [ "$EUID" -ne 0 ]
   return -1
 fi
 
-###################################################################################
 #Git initialization installation
 yum install git -y
 
@@ -34,17 +33,10 @@ cd $installDir
 # MAKE ALL SHELL SCRIPTS EXECUTABLE TO ROOT ONLY
 find . -name "*sh" -exec chmod 700 {} \;
 
-###################################################################################
-#cd /tmp/wordpress/install/bootstraps/mysql/
-
 cd ./install/bootstraps/mysql/
-
 ./mySQLBootstrap.sh
-
-###################################################################################
 
 cd $installDir
 ./setup.sh
 
 cd $wpCurrDir
-

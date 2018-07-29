@@ -40,3 +40,4 @@ cd $installDir
 ./setup.sh
 
 cd $wpCurrDir
+

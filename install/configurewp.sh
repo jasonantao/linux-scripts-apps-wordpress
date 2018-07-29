@@ -1,6 +1,7 @@
 #Configure WordPress
 
 ###################### Testing below ###########################
+echo ===================== 'Executing configurewp.sh' ===================================
 wpConfigDir=$PWD
 cd /tmp/wordpress/install/
 cp wp-config.php /var/www/html/wordpress/

@@ -1,6 +1,5 @@
 #Install MySQL
-echo 'Installing mysql server'
-echo =================================================================================
+echo ===================== 'Installing mysql server' ===================================
 echo BEFORE PWD = $PWD
 wpDir=$PWD
 

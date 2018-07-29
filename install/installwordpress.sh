@@ -1,6 +1,6 @@
 #Installing WordPress
 echo 'Installing WordPress'
-echo ===================== 'Executing installwordpress.sh' ===================================
+echo '===================== Executing installwordpress.sh ==================================='
 
 wpInstallDir=$PWD
 cd /var/www/html

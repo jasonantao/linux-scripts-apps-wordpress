@@ -17,7 +17,7 @@ service mysqld start
 
 cd /tmp/wordpress/
 source ./install/wpcmds.sql
-exit;
+#exit;
 #exit;
 #exit;
 echo =================================================================================

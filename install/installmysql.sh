@@ -1,6 +1,9 @@
 #Install MySQL
 echo 'Installing mysql server'
+echo =================================================================================
+echo BEFORE PWD = $PWD
 wpDir=$PWD
+
 rpm -qa | grep mysql
 yum install mysql-server -y
 service mysqld status
@@ -17,5 +20,7 @@ source ./install/wpcmds.sql
 exit;
 #exit;
 #exit;
+echo =================================================================================
+echo AFTER PWD = $PWD
 cd $wpDir
 

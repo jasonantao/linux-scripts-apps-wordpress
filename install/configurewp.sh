@@ -19,5 +19,4 @@ exit;
 exit;
 echo ===================== 'Done MySQL' ===================================
 
-cd wpConfigDir
 

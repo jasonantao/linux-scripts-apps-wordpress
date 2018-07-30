@@ -15,11 +15,10 @@ service mysqld start
 #mySQLInstallDir=$PWD/install
 #Source $mySQLInstallDir/wpcmds.sql
 
-#cd /tmp/wordpress/
-#source ./install/wpcmds.sql
+cd /tmp/wordpress/
+source ./install/wpcmds.sql
 
 #exit;
 echo '======================== AFTER PWD = $PWD ==========================================='
 cd $wpDir
 
-'

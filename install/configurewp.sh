@@ -14,6 +14,7 @@ CREATE DATABASE jason;
 GRANT ALL PRIVILEGES ON jason.* TO "jason"@"localhost" IDENTIFIED BY "jason";
 FLUSH PRIVILEGES;
 exit;
+exit;
 echo ===================== 'Done MySQL' ===================================
 
 cd wpConfigDir

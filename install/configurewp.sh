@@ -10,7 +10,7 @@ chmod 777 wp-config.php
 echo ===================== 'About to Start MySQL' ===================================
 
 
-exit;
+
 mysql -u root
 CREATE DATABASE jason;
 GRANT ALL PRIVILEGES ON jason.* TO "jason"@"localhost" IDENTIFIED BY "jason";

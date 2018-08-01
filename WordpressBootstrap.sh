@@ -16,7 +16,7 @@ yum install git -y
 #Need to setup to install wordpress under scripts/apps/
 pkg=wordpress
 gitRepo="linux-scripts-apps-wordpress.git"
-installDir="/tmp/wordpress"
+installDir="/tmp/apps/wordpress"
 if [ -f ~/.ssh/gitHub.key ]; then
    clone="git clone git@github.com:jasonantao/"
 else

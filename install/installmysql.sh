@@ -9,13 +9,7 @@ yum install mysql-server -y
 service mysqld status
 service mysqld start
 
-#mysql -u root
-#source /tmp/wordpress/install/wpcmds.sql
-
-#mySQLInstallDir=$PWD/install
-#Source $mySQLInstallDir/wpcmds.sql
-
-cd /tmp/wordpress/
+cd $installDir
 source ./install/wpcmds.sql
 
 #exit;

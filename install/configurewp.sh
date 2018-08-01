@@ -11,5 +11,3 @@ mysql -u root -D jason -e "GRANT ALL PRIVILEGES ON jason.* TO 'jason'@'localhost
 mysql -u root -e "FLUSH PRIVILEGES"
 exit;
 
-echo ===================== 'Done MySQL' ===================================
-

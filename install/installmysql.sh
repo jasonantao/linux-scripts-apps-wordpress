@@ -1,6 +1,6 @@
 #Install MySQL
-echo '======================== BEFORE PWD = $PWD ==========================================='
-echo '===================== Installing mysql server ==================================='
+#echo '======================== BEFORE PWD = $PWD ==========================================='
+#echo '===================== Installing mysql server ==================================='
 echo BEFORE PWD = $PWD
 wpDir=$PWD
 
@@ -10,9 +10,9 @@ service mysqld status
 service mysqld start
 
 cd $installDir
-source ./install/wpcmds.sql
+#source ./install/wpcmds.sql
 
 #exit;
-echo '======================== AFTER PWD = $PWD ==========================================='
+#echo '======================== AFTER PWD = $PWD ==========================================='
 cd $wpDir
 

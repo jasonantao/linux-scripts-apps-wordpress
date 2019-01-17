@@ -12,6 +12,7 @@ fi
 
 yum install mysql -y
 sudo rpm -ivh mysql-5.5-1.6.amzn1.noarch.rpm
+sudo yum localinstall http://repo.mysql.com/mysql-community-release-el6-5.noarch.rpm -y
 yum update -y
 
 

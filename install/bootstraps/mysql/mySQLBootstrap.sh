@@ -70,3 +70,4 @@ ls
 sudo su
 yum install mysql -y
 mysql --version
+exit;

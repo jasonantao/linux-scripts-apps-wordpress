@@ -73,6 +73,5 @@ yum install mysql -y
 mysql --version
 exit;
 
-exit;
-exit;
+
 exit;

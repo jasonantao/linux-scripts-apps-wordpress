@@ -6,8 +6,8 @@ cp wp-config.php /var/www/html/wordpress/
 cd /var/www/html/wordpress/
 chmod 777 wp-config.php
 
-mysql -u root -e "CREATE DATABASE jason"
-mysql -u root -D jason -e "GRANT ALL PRIVILEGES ON jason.* TO 'jason'@'localhost' IDENTIFIED BY 'jason'"
+mysql -u root -e "CREATE DATABASE wpconfig"
+mysql -u root -D wpconfig -e "GRANT ALL PRIVILEGES ON wpconfig.* TO 'wpconfig'@'localhost' IDENTIFIED BY 'wpconfig'"
 mysql -u root -e "FLUSH PRIVILEGES"
 exit;
 

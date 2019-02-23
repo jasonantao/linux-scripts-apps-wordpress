@@ -5,8 +5,8 @@ echo '===================== Executing installwordpress.sh ======================
 wpInstallDir=$PWD
 #First line below is correct
 #cd /var/www/html
-mkdir /var/www/html/remco
-cd /var/www/html/remco
+#mkdir /var/www/html/remco
+cd /var/www/html/
 wget http://wordpress.org/latest.tar.gz
 tar -xzvf latest.tar.gz
 

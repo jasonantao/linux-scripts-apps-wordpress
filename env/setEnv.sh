@@ -8,8 +8,8 @@ mySqlLog=/var/log/mySql
 
 #MySQL Params
 echo 'The dbName is: ' $1
-dbName=$1
+export dbName=$1
 echo 'The userName is: ' $2
-userName=$2
+export userName=$2
 echo 'The dbpwd is: ' $3
-dbpwd=$3
+export dbpwd=$3

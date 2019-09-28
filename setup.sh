@@ -1,4 +1,12 @@
-. ./env/setEnv.sh $*
+#. ./env/setEnv.sh $*
+#MySQL Params
+echo 'The dbName is: ' $1
+export dbName=$1
+echo 'The userName is: ' $2
+export userName=$2
+echo 'The dbpwd is: ' $3
+export dbpwd=$3
+
 # #Install Web Server
  . ./install/installwebserver.sh
 

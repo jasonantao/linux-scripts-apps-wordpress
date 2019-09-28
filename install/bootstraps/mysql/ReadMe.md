@@ -10,7 +10,6 @@ Find your way using our directory below:
 - [Package Contents](#package-contents)
 - [Running the Package](#running-the-package)
 - [Video Tutorial](#video-tutorial)
-- [About the Author](#about-the-authors)
  
  Name  | Key Contact
 ------------- | -------------

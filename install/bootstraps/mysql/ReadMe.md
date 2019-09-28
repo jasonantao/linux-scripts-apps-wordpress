@@ -74,12 +74,6 @@ It is recommended to read the contents of the scripts to be assured of the insta
 
 [![AWS MIGRATION](https://github.com/RMelanson/linux-scripts-bootstraps/blob/master/images/maxresdefault.jpg)](https://youtu.be/T_d5-y8hpYI "AWS Migration")
 
-### About the Author
-![Author Image](https://github.com/jasonantao/linux-scripts-apps-mysql/blob/master/res/Jason.jpg)
-- Name: Jason Antao
-- email: jasonsantao@gmail.com
-- LinkedIn: www.linkedin.com/in/jason-antao
-
 
 [Back To The Top](#directory-of-information)
 

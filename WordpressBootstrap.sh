@@ -5,7 +5,7 @@ wpCurrDir=$PWD
 
 # Ensure script is running under root
 if [ "$EUID" -ne 0 ]
-  then echo "Please run as root or under sudo"
+  then echo "Error Cannot Proceed, Must Run as Root or Under Sudo"
   return -1
 fi
 

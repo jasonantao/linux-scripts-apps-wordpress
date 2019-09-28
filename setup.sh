@@ -1,6 +1,6 @@
 . ./env/setEnv.sh $*
 # #Install Web Server
-# . ./install/installwebserver.sh
+ . ./install/installwebserver.sh
 
 # #Install php-mysql
 # . ./install/installphpmysql.sh

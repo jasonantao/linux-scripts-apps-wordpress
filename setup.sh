@@ -8,17 +8,17 @@ echo 'The dbpwd is: ' $3
 export dbpwd=$3
 
 # #Install Web Server
- . ./install/installwebserver.sh
+. ./install/installwebserver.sh
 
 # #Install php-mysql
-# . ./install/installphpmysql.sh
+. ./install/installphpmysql.sh
 
 # #Install WordPress
-# . ./install/installwordpress.sh
+. ./install/installwordpress.sh
 
 # #Install MySQL
-# . ./install/installmysql.sh
+. ./install/installmysql.sh
 
 # #Configure WordPress
-# . ./install/configurewp.sh
+. ./install/configurewp.sh
 

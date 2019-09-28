@@ -38,7 +38,7 @@ cd ./install/bootstraps/mysql/
 
 
 cd $installDir
-. ./setup.sh 2>&1| tee setup.log
+. ./setup.sh $* 2>&1| tee setup.log
 
 
 cd $wpCurrDir

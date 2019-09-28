@@ -1,15 +1,16 @@
-#Install Web Server
-. ./install/installwebserver.sh
+. ./env/setEnv.sh $*
+# #Install Web Server
+# . ./install/installwebserver.sh
 
-#Install php-mysql
-. ./install/installphpmysql.sh
+# #Install php-mysql
+# . ./install/installphpmysql.sh
 
-#Install WordPress
-. ./install/installwordpress.sh
+# #Install WordPress
+# . ./install/installwordpress.sh
 
-#Install MySQL
-. ./install/installmysql.sh
+# #Install MySQL
+# . ./install/installmysql.sh
 
-#Configure WordPress
-. ./install/configurewp.sh
+# #Configure WordPress
+# . ./install/configurewp.sh
 

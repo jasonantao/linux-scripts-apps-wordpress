@@ -16,7 +16,9 @@ Find your way using our directory below:
 ------------- | -------------
 Jason Antao  | jasonsantao@gmail.com
 
-<img src="https://github.com/jasonantao/linux-scripts-apps-wordpress/blob/master/utils/Intro.png" alt="drawing" width="600"/>
+<img src="https://github.com/jasonantao/linux-scripts-apps-wordpress/blob/master/utils/Intro.png" alt="drawing" width="800"/>
+
+<img src="https://github.com/jasonantao/linux-scripts-apps-wordpress/blob/master/utils/wordpress.png" alt="drawing" width="800"/>
  - - - -
 ### Copyright Agreement <b>Package-Linux-Scripts-Bootstraps-Legal-Information ©</b> <img src="https://github.com/RMelanson/linux-scripts-bootstraps/blob/master/images/policeman.png" width="5%" align= "right">
 

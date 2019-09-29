@@ -3,6 +3,8 @@
 #Setting reference to the current directory
 wpCurrDir=$PWD
 
+echo "The order of arguments is Mysql dbName, userName, dbpwd"
+
 # Ensure script is running under root
 if [ "$EUID" -ne 0 ]
   then echo "Error Cannot Proceed, Must Run as Root or Under Sudo"

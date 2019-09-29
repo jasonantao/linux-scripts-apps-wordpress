@@ -15,8 +15,8 @@ Find your way using our directory below:
  Name  | Key Contact
 ------------- | -------------
 Jason Antao  | jasonsantao@gmail.com
-Robin Melanson  | robin.e.melanson@gmail.com
 
+<img src="https://github.com/jasonantao/linux-scripts-apps-wordpress/blob/master/utils/Intro.png" alt="drawing" width="600"/>
  - - - -
 ### Copyright Agreement <b>Package-Linux-Scripts-Bootstraps-Legal-Information ©</b> <img src="https://github.com/RMelanson/linux-scripts-bootstraps/blob/master/images/policeman.png" width="5%" align= "right">
 

@@ -75,6 +75,12 @@ It is recommended to read the contents of the scripts to be assured of the insta
   - 2. If executing the script manually on a Linux after the O.S. has been installed, be sure to
        - execute as root ./webBootstrap.sh
        - or as user with sudo access sudo ./webBootstrap.sh
+
+ Arguments are : 
+- dbName
+- userName
+- dbpwd
+- sitename
  - - - -
 ### Video Tutorial<img src="https://github.com/RMelanson/linux-scripts-bootstraps/blob/master/images/video.png" width="5%" align= "right">
 - Comprehensive Video Tutorial Currently Under Construction. Resource will be posted as soon as it is ready for publication.

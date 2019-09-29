@@ -2,7 +2,7 @@
 
 wpConfigDir=$PWD
 cd /$installDir/install/
-cp wp-config.php /var/www/html/wordpress/
+#cp wp-config.php /var/www/html/wordpress/
 cd /var/www/html/wordpress/
 chmod 777 wp-config.php
 

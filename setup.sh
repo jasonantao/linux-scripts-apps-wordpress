@@ -1,13 +1,12 @@
 #. ./env/setEnv.sh $*
 #MySQL Params
-echo 'The dbName is: ' $1
-export dbName=$1
-echo 'The userName is: ' $2
-export userName=$2
-echo 'The dbpwd is: ' $3
-export dbpwd=$3
-echo 'The sitename is: ' $4
-export sitename=$4
+#Change to this
+echo Setting External Args
+echo These Arguments Overwrite Default Argument Settings
+for arg in "$@"; do
+  echo setArgs EXECUTING: export $arg
+  export $arg
+done
 
 # #Install Web Server
 . ./install/installwebserver.sh

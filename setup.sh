@@ -6,6 +6,8 @@ echo 'The userName is: ' $2
 export userName=$2
 echo 'The dbpwd is: ' $3
 export dbpwd=$3
+echo 'The sitename is: ' $4
+export sitename=$4
 
 # #Install Web Server
 . ./install/installwebserver.sh

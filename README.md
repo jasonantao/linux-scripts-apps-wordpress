@@ -76,7 +76,7 @@ It is recommended to read the contents of the scripts to be assured of the insta
        - execute as root ./webBootstrap.sh
        - or as user with sudo access sudo ./webBootstrap.sh
 
- Arguments are : 
+### Automated Arguments: 
 - dbName
 - userName
 - dbpwd

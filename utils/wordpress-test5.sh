@@ -1,3 +1,4 @@
+#TEST FILE 5
 #!/bin/bash
 
 #Setting reference to the current directory

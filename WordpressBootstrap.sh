@@ -33,6 +33,7 @@ $clone$gitRepo $installDir
 cd $installDir
 
 # MAKE ALL SHELL SCRIPTS EXECUTABLE TO ROOT ONLY
+#Ensure under root
 find . -name "*sh" -exec chmod 700 {} \;
 
 cd ./install/bootstraps/mysql/

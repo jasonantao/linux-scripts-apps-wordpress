@@ -22,7 +22,7 @@ Jason Antao  | jasonsantao@gmail.com
  - - - -
 ### Copyright Agreement <b>Package-Linux-Scripts-Bootstraps-Legal-Information ©</b> <img src="https://github.com/RMelanson/linux-scripts-bootstraps/blob/master/images/policeman.png" width="5%" align= "right">
 
-Read all copyright clauses and information before continuing to download and/or interact with such software. All interaction and use of such software from hereon forward assumes full responsibility of complete agreement to all copyright terms and general conditions as specified. 
+Read all copyright clauses and information before continuing to download and/or interact with such software. All interaction and use of such software tools from hereon forward assumes full responsibility of complete agreement to all copyright terms and general conditions as specified. 
 
 - This program is permissible for re-distribution provided this copyright/license header is present in all redistributions of such files, and in its entirety.  
 - There exists no warranty or guaranty of any kind in any way and is not assured to be as required and may not work exactly as designed for all operating systems employing various potentially conflicting software programs and entities.  

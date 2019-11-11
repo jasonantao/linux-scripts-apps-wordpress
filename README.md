@@ -2,7 +2,7 @@
 # Linux Scripts WordPress Setup Apps | AWS Migration ©<img src="https://github.com/RMelanson/linux-scripts-bootstraps/blob/master/images/boot1.png" width="6%" align= "right">
 ---
 ### Directory of Information
-Find your way using our directory below:
+Find your way using the directory below:
 
 - [Legal Disclaimer & Copyright Agreement ©](#copyright-agreement)
 - [Repository](#repository-information)

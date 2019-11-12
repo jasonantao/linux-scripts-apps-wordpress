@@ -19,6 +19,7 @@ yum install git -y
 pkg=wordpress
 gitRepo="linux-scripts-apps-wordpress.git"
 installDir="/tmp/apps/wordpress"
+folderDir="/tmp/apps"
 if [ -f ~/.ssh/gitHub.key ]; then
    clone="git clone git@github.com:jasonantao/"
 else
@@ -47,6 +48,6 @@ cd $installDir
 cd $wpCurrDir
 #Remove Root Files now
 #Go to install directory to remove root files
-cd $installDir
-rm -rf linux-scripts-apps-wordpress
+cd $folderDir
+rm -rf wordpress
 cd $wpCurrDir

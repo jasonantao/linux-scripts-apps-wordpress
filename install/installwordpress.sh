@@ -13,4 +13,5 @@ tar -xzvf latest.tar.gz
 #Initial message - will repeat
 echo "Wordpress Installation Complete"
 echo "Go to http://your_ip_adress/wordpress to launch your blank wordpress site."
+rm -rf latest.tar.gz
 cd $wpInstallDir

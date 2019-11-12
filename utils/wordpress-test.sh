@@ -1,4 +1,3 @@
-#TEST FILE 1
 #!/bin/bash -e
 clear
 

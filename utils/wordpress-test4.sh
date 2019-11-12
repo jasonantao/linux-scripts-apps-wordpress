@@ -1,4 +1,3 @@
-#TEST FILE 4
 #!/bin/bash
 
 #Setting reference to the current directory

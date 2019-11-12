@@ -10,7 +10,7 @@ mySqlLog=/var/log/mySql
 dbName=admin
 userName=admin
 dbpwd=pass
-sitename=cloudinitializer
+sitename=mynewsite
 
 
 echo Setting External Args

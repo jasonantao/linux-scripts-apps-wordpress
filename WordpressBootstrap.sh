@@ -45,4 +45,8 @@ cd $installDir
 
 
 cd $wpCurrDir
-
+#Remove Root Files now
+#Go to install directory to remove root files
+cd $installDir
+rm -rf linux-scripts-apps-wordpress
+cd $wpCurrDir

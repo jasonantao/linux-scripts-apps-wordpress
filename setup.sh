@@ -1,3 +1,6 @@
+#! /bin/bash
+
+# SETUP THE ENVIRONMENT
 . ./env/setEnv.sh $*
 #MySQL Params
 

@@ -1,4 +1,3 @@
-#TEST FILE 2
 # Setup site folder
 mkdir ~/Sites/$1
 cd ~/Sites/$1

@@ -11,7 +11,7 @@ dbName=admin
 userName=admin
 dbpwd=pass
 sitename=mynewsite
-
+installDir=/opt/CI/bootstraps/apps/wordpress
 
 echo Setting External Args
 echo These Arguments Overwrite Default Argument Settings

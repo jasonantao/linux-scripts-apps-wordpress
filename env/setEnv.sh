@@ -10,7 +10,7 @@ mySqlLog=/var/log/mySql
 dbName=admin
 userName=admin
 dbpwd=pass
-sitename=mynewsite
+siteName=mynewsite
 installDir=/opt/CI/bootstraps/apps/wordpress
 
 echo Setting External Args

@@ -3,10 +3,10 @@
 wpConfigDir=$PWD
 cd /$installDir/install/
 echo "--------------------------------------------------------- HERE WP Config -----------------------------------------------------"
-mkdir /var/www/html/$sitename
-cp -a /var/www/html/wordpress/. /var/www/html/$sitename/
-cp wp-config.php /var/www/html/$sitename/
-cd /var/www/html/$sitename/
+mkdir /var/www/html/$siteName
+cp -a /var/www/html/wordpress/. /var/www/html/$siteName/
+cp wp-config.php /var/www/html/$siteName/
+cd /var/www/html/$siteName/
 chmod 777 wp-config.php
 echo "----------------------------------------------------- HERE ARGS ENTRY ----------------------------------------------------"
 
